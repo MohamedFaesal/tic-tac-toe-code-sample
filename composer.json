@@ -1,0 +1,12 @@
+{
+    "name": "root/tic-tac-toe-code-sample",
+    "description": "this is a simple tic tac toe in oop",
+    "authors": [
+        {
+            "name": "Mohamed Faesal",
+            "email": "mohamed.feasal@gmail.com",
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
