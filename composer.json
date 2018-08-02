@@ -4,9 +4,29 @@
     "authors": [
         {
             "name": "Mohamed Faesal",
-            "email": "mohamed.feasal@gmail.com",
+            "email": "mohamed.feasal@gmail.com"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.9",
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TICTACTOE\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TICTACTOETest\\": "test/"
+        }
+    },
+    "scripts" : {
+        "test" : "./vendor/bin/phpunit -c phpunit.xml.dist"
+    }
 }
