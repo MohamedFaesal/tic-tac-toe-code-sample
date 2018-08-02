@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+        colors="true"
+        stopOnError="true"
+        stopOnFailure="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        bootstrap="./vendor/autoload.php">
+    <testsuites>
+        <testsuite name="tic-tac-toe-test">
+            <directory>./test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
